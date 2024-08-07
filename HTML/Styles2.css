@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Dark gray background */
+    color: #f0f0f0; /* Light gray text */
+}
+
+h1 {
+    color: #f0f0f0; /* Light gray text */
+    text-align: center;
+    margin-top: 20%;
+    font-size: 3em; /* Increase text size */
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 1.5em; /* Increase button text size */
+    background-color: #444; /* Darker gray button background */
+    color: #fff; /* White button text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555; /* Slightly lighter gray on hover */
+}
