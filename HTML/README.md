@@ -14,4 +14,5 @@ A basic HTML boilerplate to kickstart my web projects. **This template is BP sta
 ### Files
 
 - `basic.html`: The HTML boilerplate file.
-- `styles.css`: A basic CSS file linked in the HTML boilerplate.
+- `styles.css`: A basic CSS file linked in the HTML boilerplate.on
+- `script.js`: A basic function to hook into my github 
