@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    background-color: #6a0dad;
+    padding: 20px;
+    text-align: center;
+}
+
+header .profile {
+    text-align: center;
+}
+
+.banner {
+    background-color: #6a0dad;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.banner button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: none;
+    color: #6a0dad;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+main {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 200px;
+    background-color: #1e1e1e;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 100px; /* Adjust based on header height */
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 20px;
+}
+
+.sidebar ul li a {
+    color: #b8b8b8;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.sidebar ul li a i {
+    margin-right: 10px;
+    font-size: 20px; /* Adjust icon size */
+}
+
+.sidebar-footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sidebar-footer a {
+    color: #b8b8b8;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.sidebar ul li a:hover,
+.sidebar-footer a:hover {
+    color: #fff; /* Change color on hover */
+}
+
+.sidebar ul li a::before {
+    content: '';
+    display: inline-block;
+    width: 20px; /* Adjust size to match the icon size */
+    height: 20px;
+    margin-right: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Add custom icons */
+.sidebar ul li a[href*="docs"]::before {
+    background-image: url('path/to/docs-icon.png'); /* Replace with your icon path */
+}
+
+.sidebar ul li a[href*="categories"]::before {
+    background-image: url('path/to/categories-icon.png'); /* Replace with your icon path */
+}
+
+.sidebar ul li a[href*="home"]::before {
+    background-image: url('path/to/home-icon.png'); /* Replace with your icon path */
+}
+
+.sidebar ul li a[href*="about"]::before {
+    background-image: url('path/to/about-icon.png'); /* Replace with your icon path */
+}
+
+.sidebar ul li a[href*="tags"]::before {
+    background-image: url('path/to/tags-icon.png'); /* Replace with your icon path */
+}
+
+.sidebar-footer a[href*="darkmode"]::before {
+    background-image: url('path/to/darkmode-icon.png'); /* Replace with your icon path */
+}
+
+.sidebar-footer a[href*="link"]::before {
+    background-image: url('path/to/link-icon.png'); /* Replace with your icon path */
+}
+
+.sidebar-footer a[href*="cross"]::before {
+    background-image: url('path/to/cross-icon.png'); /* Replace with your icon path */
+}
+
+.sidebar-footer a[href*="github"]::before {
+    background-image: url('path/to/github-icon.png'); /* Replace with your icon path */
+}
+
+.sidebar-footer a[href*="rss"]::before {
+    background-image: url('path/to/rss-icon.png'); /* Replace with your icon path */
+}
